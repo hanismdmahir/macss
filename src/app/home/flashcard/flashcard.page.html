@@ -1,0 +1,93 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>flashcard</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div>
+        <ion-button fill="clear" (click)="back()">
+            <img src="../../../assets/icon/back.png" alt="">
+        </ion-button>
+      </div>
+      
+  <ion-grid>
+    <ion-row>
+      
+      <ion-col>
+        <ion-card button='true' (click)="addingCSS()">
+          <ion-card-header>
+            <ion-card-title>ADDING CSS</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-img src="../assets/img/cssStyle.png"></ion-img>
+          </ion-card-content>
+        </ion-card>
+          
+      </ion-col>
+
+      <ion-col>
+        <ion-card button='true' (click)="selector()">
+          <ion-card-header>
+              <ion-card-title>SELECTOR</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+          <ion-img src="../assets/img/selector.png"></ion-img>
+          </ion-card-content>
+        </ion-card>    
+      </ion-col>
+
+      <ion-col>
+        <ion-card button='true' (click)="boxmodel()">
+          <ion-card-header>
+              <ion-card-title>BOX MODEL</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+              <ion-img src="../assets/img/box model.jpg"></ion-img>
+          </ion-card-content>
+        </ion-card>
+          
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      
+        <ion-col>
+          <ion-card button='true' (click)="text()">
+            <ion-card-header>
+              <ion-card-title>TEXT</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+              <ion-img src="../assets/img/text.png"></ion-img>
+            </ion-card-content>
+          </ion-card>
+            
+        </ion-col>
+  
+        <ion-col>
+          <ion-card button='true' (click)=" font()">
+            <ion-card-header>
+                <ion-card-title>FONT</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+            <ion-img src="../assets/img/font.png"></ion-img>
+            </ion-card-content>
+          </ion-card>
+            
+        </ion-col>
+  
+        <ion-col>
+          <ion-card button='true' (click)=" background()">
+            <ion-card-header>
+                <ion-card-title>BACKGROUND</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+                <ion-img src="../assets/img/background.png"></ion-img>
+            </ion-card-content>
+          </ion-card>
+            
+        </ion-col>
+      </ion-row>
+  </ion-grid>
+
+</ion-content>

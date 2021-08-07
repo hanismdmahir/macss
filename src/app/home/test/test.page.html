@@ -1,0 +1,673 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Design Web</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-content>
+    <div [ngStyle]="{'color': getColorPara(1), 
+                    'letter-spacing' : getLSpace(1),
+                    'text-align' : getTAlign(1) , 
+                    'text-decoration' : getTDeco(1) ,
+                    'text-transform' : getTTransf(1) ,
+                    'word-spacing' : getWSpace(1),
+                    'border-style': getBorderStyle(1),
+                    'border-color': getBorderColor(1),
+                    'border-width': getBorderWidth(1),
+                    'border-radius': getBorderRadius(1), 
+                    'font-family' : getFFamily(1),
+                    'font-size' : getFSize(1),
+                    'font-style' : getFStyle(1),
+                    'font-weight' : getFWeight(1),
+                    'background-color': getColorBG(), 
+                    'background-image': getBkgImg(),
+                    'background-repeat': getBkgRep(),
+                    'background-size': getBkgSize(),
+                    'background-position': getBkgPost() 
+                  }">
+      <div class="title">
+        <h1 [ngStyle]= "{'color': getColorPara(3), 
+                        'background-color' : getBGColorPara(3) ,
+                        'letter-spacing' : getLSpace(3),
+                        'text-align' : getTAlign(3) , 
+                        'text-decoration' : getTDeco(3) ,
+                        'text-transform' : getTTransf(3) ,
+                        'word-spacing' : getWSpace(3), 
+                        'border-style': getBorderStyle(3),
+                        'border-color': getBorderColor(3),
+                        'border-width': getBorderWidth(3),
+                        'border-radius': getBorderRadius(3),
+                        'font-family' : getFFamily(3),
+                        'font-size' : getFSize(3),
+                        'font-style' : getFStyle(3),
+                        'font-weight' : getFWeight(3)   
+                      }">
+                      The lion and the mouse</h1>
+      </div>
+      <br>
+      <div [ngStyle]= "{'color': getColorPara(2), 
+                        'background-color' : getBGColorPara(2) ,
+                        'letter-spacing' : getLSpace(2),
+                        'text-align' : getTAlign(2) , 
+                        'text-decoration' : getTDeco(2) ,
+                        'text-transform' : getTTransf(2) ,
+                        'word-spacing' : getWSpace(2), 
+                        'border-style': getBorderStyle(2),
+                        'border-color': getBorderColor(2),
+                        'border-width': getBorderWidth(2),
+                        'border-radius': getBorderRadius(2),
+                        'font-family' : getFFamily(2),
+                        'font-size' : getFSize(2),
+                        'font-style' : getFStyle(2),
+                        'font-weight' : getFWeight(2)   
+                       }" id="para1">
+        Once upon a time there lived a lion in a forest. One day after a heavy meal.
+        It was sleeping under a tree. After a while, there came a mouse and it started to play on the lion.
+        Suddenly the lion got up with anger and looked for those who disturbed its nice sleep." 
+        <span  class="dialog" [ngStyle]= "{'color': getColorPara(4), 
+                                          'background-color' : getBGColorPara(4) ,
+                                          'letter-spacing' : getLSpace(4),
+                                          'text-align' : getTAlign(4) , 
+                                          'text-decoration' : getTDeco(4) ,
+                                          'text-transform' : getTTransf(4) ,
+                                          'word-spacing' : getWSpace(4), 
+                                          'border-style': getBorderStyle(4),
+                                          'border-color': getBorderColor(4),
+                                          'border-width': getBorderWidth(4),
+                                          'border-radius': getBorderRadius(4),
+                                          'font-family' : getFFamily(4),
+                                          'font-size' : getFSize(4),
+                                          'font-style' : getFStyle(4),
+                                          'font-weight' : getFWeight(4)   
+                                          }">
+        Who dare to disturb my sleep ?!
+        </span>
+        " said lion angrily. Then it saw a small mouse standing trembling with fear. The lion jumped on it and started to kill it. "
+        <span class="dialog" [ngStyle]= "{'color': getColorPara(4), 
+                                        'background-color' : getBGColorPara(4) ,
+                                        'letter-spacing' : getLSpace(4),
+                                        'text-align' : getTAlign(4) , 
+                                        'text-decoration' : getTDeco(4) ,
+                                        'text-transform' : getTTransf(4) ,
+                                        'word-spacing' : getWSpace(4), 
+                                        'border-style': getBorderStyle(4),
+                                        'border-color': getBorderColor(4),
+                                        'border-width': getBorderWidth(4),
+                                        'border-radius': getBorderRadius(4),
+                                        'font-family' : getFFamily(4),
+                                        'font-size' : getFSize(4),
+                                        'font-style' : getFStyle(4),
+                                        'font-weight' : getFWeight(4)   
+                                        }">
+        Oh lion, please forgive me. I won't do it again. I'm sorry
+        </span>
+        ", the mouse requested the lion to forgive it. The lion felt pity and left it. The mouse ran away.
+      </div>
+      <br>
+      <div id="img1">
+        <img src="../../../assets/img/story.jpg" alt="lion and mouse" [ngStyle]="{'border-style': getBorderStyle(6),
+                                                                                  'border-color': getBorderColor(6),
+                                                                                  'border-width': getBorderWidth(6),
+                                                                                  'border-radius': getBorderRadius(6),
+                                                                                  'width': getImgW(),
+                                                                                  'height': getImgH(),
+                                                                                  'opacity': getImgOpac()
+                                                                                  }">
+      </div>
+      <br>
+      <div [ngStyle]= "{'color': getColorPara(2), 
+                        'background-color' : getBGColorPara(2) ,
+                        'letter-spacing' : getLSpace(2),
+                        'text-align' : getTAlign(2) , 
+                        'text-decoration' : getTDeco(2) ,
+                        'text-transform' : getTTransf(2) ,
+                        'word-spacing' : getWSpace(2), 
+                        'border-style': getBorderStyle(2),
+                        'border-color': getBorderColor(2),
+                        'border-width': getBorderWidth(2),
+                        'border-radius': getBorderRadius(2),
+                        'font-family' : getFFamily(2),
+                        'font-size' : getFSize(2),
+                        'font-style' : getFStyle(2),
+                        'font-weight' : getFWeight(2)   
+                      }" id="para2">
+        On another day, the lion was caught in a net by a hunter. The mouse came there and cut the net. Thus it escaped.
+        There after, the mouse and the lion became friends. They lived happily in the forest afterwards.
+        <br>
+        <br>
+      </div>
+
+        <div id="Moral">Moral :
+          <ol >
+            <li>A friend in need is a friend indeed</li>
+            <li>A kindness is never wasted</li>
+            <li>Everything has its own value</li>
+          </ol>
+        </div>
+      
+
+      <div>
+        <a href="#" [ngStyle]= "{'color': getColorPara(5), 
+                                 'background-color' : getBGColorPara(5) ,
+                                 'letter-spacing' : getLSpace(5),
+                                 'text-align' : getTAlign(5) , 
+                                 'text-decoration' : getTDeco(5) ,
+                                 'text-transform' : getTTransf(5) ,
+                                 'word-spacing' : getWSpace(5), 
+                                 'border-style': getBorderStyle(5),
+                                 'border-color': getBorderColor(5),
+                                 'border-width': getBorderWidth(5),
+                                 'border-radius': getBorderRadius(5),
+                                 'font-family' : getFFamily(5),
+                                 'font-size' : getFSize(5),
+                                 'font-style' : getFStyle(5),
+                                 'font-weight' : getFWeight(5)   
+                                }">
+              This is a link for The Lion and The Mouse</a>  
+      </div>
+    </div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-title>CSS Code</ion-card-title>
+    <ion-card-content *ngIf="body" style="white-space: pre;">
+      body {{'{'}} 
+      {{getBody()}}
+      {{'}'}}
+    </ion-card-content>
+
+    <ion-card-content *ngIf="p">
+
+    </ion-card-content>
+
+    <ion-card-content *ngIf="link">
+
+    </ion-card-content>
+
+    <ion-card-content *ngIf="img">
+
+    </ion-card-content>
+  </ion-card>
+
+
+  <div id="mainbutton" *ngIf="show">
+    <ion-button (click)="showBody()">Body</ion-button>
+    <ion-button (click)="showP()" >Paragraph</ion-button>
+    <ion-button (click)="showLink()">Link</ion-button>
+    <ion-button (click)="showImg()">Image</ion-button>
+    <ion-button (click)="showHead()">Heading 1</ion-button>
+    <ion-button (click)="showDialog()">Class Dialog</ion-button>
+    <!--<ion-button >Class Moral</ion-button>-->
+  </div>
+
+  <div id="hbutton" *ngIf="showh">
+      <ion-button fill="clear"(click)="showHead()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <ion-button (click)="showBorder()">Border</ion-button>
+      <ion-button (click)="showFont()">Font</ion-button>
+      <ion-button (click)="showText()">Text</ion-button>
+  </div>
+  
+  <div id="dialogbutton" *ngIf="showdialog">
+      <ion-button fill="clear"(click)="showDialog()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <ion-button (click)="showBorder()">Border</ion-button>
+      <ion-button (click)="showFont()">Font</ion-button>
+      <ion-button (click)="showText()">Text</ion-button>
+  </div>
+
+  <div id="bodybutton" *ngIf="showbody">
+      <ion-button fill="clear"(click)="showBody()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <ion-button (click)="showBkg()">Background</ion-button>
+      <ion-button (click)="showBorder()">Border</ion-button>
+      <ion-button (click)="showFont()">Font</ion-button> 
+      <ion-button (click)="showText()">Text</ion-button>
+  </div>
+
+  <div id="bkgbutton" *ngIf="showbkg">
+      <ion-button fill="clear"(click)="showBkg()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <ion-button (click)="showColor(4)" >Background Colour</ion-button>
+      <ion-button (click)="showBkgImg()">Image</ion-button>
+      <ion-button (click)="showBkgRep()">Repeat</ion-button>
+      <ion-button (click)="showBkgSize()">Size</ion-button>
+      <ion-button (click)="showBkgPost()">Position</ion-button>
+  </div>
+
+  <div id="bkgimgbutton" *ngIf="showbkgimg">
+      <ion-button fill="clear"(click)="showBkgImg()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <ion-button (click)="setBkgImg('Geometric.jpg')">Geometric.jpg</ion-button>
+      <ion-button (click)="setBkgImg('Tree.png')">Tree.png</ion-button>
+      <ion-button (click)="setBkgImg(null)">None</ion-button>
+  </div>
+
+  <div id="bkgrepbutton" *ngIf="showbkgrep">
+      <ion-button fill="clear"(click)="showBkgRep()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <ion-button (click)="setBkgRep('repeat')">Repeat</ion-button>
+      <ion-button (click)="setBkgRep('repeat-x')">Repeat-X</ion-button>
+      <ion-button (click)="setBkgRep('repeat-y')">Repeat-Y</ion-button>
+      <ion-button (click)="setBkgRep('no-repeat')">No-Repeat</ion-button>
+  </div>
+
+  <div id="bkgsizebutton" *ngIf="showbkgsize">
+      <ion-button fill="clear"(click)="showBkgSize()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <ion-button (click)="setBkgSize('auto')">Auto</ion-button>
+      <ion-button (click)="setBkgSize('cover')">Cover</ion-button>
+      <ion-button (click)="setBkgSize('contain')">Contain</ion-button>
+      <ion-button (click)="setBkgSize('50%')">50%</ion-button>
+      <ion-button (click)="setBkgSize('100px 100px')">100px 100px</ion-button>
+      <ion-button (click)="setBkgSize('initial')">Initial</ion-button>
+  </div>
+
+  <div id="bkgpostbutton" *ngIf="showbkgpost">
+      <ion-button fill="clear"(click)="showBkgPost()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <ion-button (click)="setBkgPost('left top')">Left Top</ion-button>
+      <ion-button (click)="setBkgPost('center top')">Center Top</ion-button>
+      <ion-button (click)="setBkgPost('right top')">Right Top</ion-button>
+      <ion-button (click)="setBkgPost('left center')">Left Center</ion-button>
+      <ion-button (click)="setBkgPost('center center')">Center Center</ion-button>
+      <ion-button (click)="setBkgPost('right center')">Right Center</ion-button>
+      <ion-button (click)="setBkgPost('left bottom')">Left Bottom</ion-button>
+      <ion-button (click)="setBkgPost('center bottom')">Center Bottom</ion-button>
+      <ion-button (click)="setBkgPost('right bottom')">Right Bottom</ion-button>
+  
+  </div>
+
+  <div id="pbutton" *ngIf="showp">
+      <ion-button fill="clear"(click)="showP()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <ion-button (click)="showBorder()">Border</ion-button>
+      <ion-button (click)="showFont()">Font</ion-button>
+      <ion-button (click)="showText()">Text</ion-button>
+  </div>
+
+  <div id="fontbutton" *ngIf="showfont">
+    <ion-button fill="clear"(click)="showFont()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+    <ion-button (click)="showFFamily()">Font Family</ion-button>
+    <ion-button (click)="showFSize()">Font Size</ion-button>
+    <ion-button (click)="showFStyle()">Font Style</ion-button>
+    <ion-button (click)="showFWeight()">Font Weight</ion-button>
+  </div>
+
+  <div id="ffamilybutton" *ngIf="showffamily">
+    <ion-button fill="clear"(click)="showFFamily()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+    <ion-button (click)="setFFamily('Times New Roman, Times, serif')">Times New Roman</ion-button>
+    <ion-button (click)="setFFamily('Georgia, serif')">Georgia</ion-button>
+    <ion-button (click)="setFFamily('Palatino Linotype, Book Antiqua, Palatino, serif')">Palatino Linotype</ion-button>
+    <ion-button (click)="setFFamily('Arial, Helvetica, sans-serif')">Arial</ion-button>
+    <ion-button (click)="setFFamily('Arial Black, Gadget, sans-serif')">Arial Black</ion-button>
+    <ion-button (click)="setFFamily('Comic Sans MS, cursive, sans-serif')">Comic Sans MS</ion-button>
+    <ion-button (click)="setFFamily('Impact, Charcoal, sans-serif')">Impact</ion-button>
+    <ion-button (click)="setFFamily('Courier New, Courier, monospace')">Courier New</ion-button>
+    <ion-button (click)="setFFamily('Lucida Console, Monaco, monospace')">Lucida Console</ion-button>
+    <ion-button (click)="setFFamily('')">Default</ion-button>
+  </div>
+
+  <div id="fsizebutton" *ngIf="showfsize && body">
+    <ion-button fill="clear"(click)="showFSize()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+    <ion-item id="fsizerange">
+      <ion-range [(ngModel)]="fsizebody" pin="true" min="10" max="50" color="danger"></ion-range>
+    </ion-item>
+  </div>
+
+  <div id="fsizebutton" *ngIf="showfsize && link">
+      <ion-button fill="clear"(click)="showFSize()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <ion-item id="fsizerange">
+        <ion-range [(ngModel)]="fsizelink" pin="true" min="10" max="50" color="danger"></ion-range>
+      </ion-item>
+    </div>
+
+  <div id="fsizebutton" *ngIf="showfsize && p">
+      <ion-button fill="clear"(click)="showFSize()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <ion-item id="fsizerange">
+        <ion-range [(ngModel)]="fsize" pin="true" min="10" max="50" color="danger"></ion-range>
+      </ion-item>
+    </div>
+
+  <div id="fsizebutton" *ngIf="showfsize && head">
+    <ion-button fill="clear"(click)="showFSize()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+    <ion-item id="fsizehrange">
+    <ion-range [(ngModel)]="fsizeh" pin="true" min="10" max="50" color="danger"></ion-range>
+    </ion-item>
+  </div>
+
+  <div id="fsizebutton" *ngIf="showfsize && dialog">
+      <ion-button fill="clear"(click)="showFSize()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <ion-item id="fsizehrange">
+      <ion-range [(ngModel)]="fsizedialog" pin="true" min="10" max="50" color="danger"></ion-range>
+      </ion-item>
+    </div>
+  
+  <div id="fstylebutton" *ngIf="showfstyle">
+    <ion-button fill="clear"(click)="showFStyle()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+    <ion-button (click)="setFStyle('italic')">Italic</ion-button>
+    <ion-button (click)="setFStyle('oblique')">Oblique</ion-button>
+    <ion-button (click)="setFStyle('normal')">Normal</ion-button>
+  </div>
+
+  <div id="fweightbutton" *ngIf="showfweight">
+    <ion-button fill="clear"(click)="showFWeight()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+    <ion-button (click)="setFWeight('bold')">Bold</ion-button>
+    <ion-button (click)="setFWeight('normal')">Normal</ion-button>
+  </div>
+
+  <div id="textbutton" *ngIf="showtext">
+      <ion-button fill="clear"(click)="showText()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <ion-button (click)="showColor(1)">Color</ion-button>
+      <ion-button *ngIf="p || link" (click)="showColor(2)">Background Color</ion-button>
+      <ion-button (click)="showLSpace()">Letter Spacing</ion-button>
+      <ion-button (click)="showTAlign()">Text Align</ion-button>
+      <ion-button (click)="showTDeco()">Text Decoration</ion-button>
+      <ion-button (click)="showTTransf()">Text Transform</ion-button>
+      <ion-button (click)="showWSpace()">Word Spacing</ion-button>
+      
+  </div>
+
+  <div id="colbutton" *ngIf="showc">
+      <ion-button fill="clear"(click)="showColor(0)" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <ion-button (click)="setStyleColor('maroon')">Maroon</ion-button>
+      <ion-button (click)="setStyleColor('red')">Red</ion-button>
+      <ion-button (click)="setStyleColor('orange')">Orange</ion-button>
+      <ion-button (click)="setStyleColor('yellow')">Yellow</ion-button>
+      <ion-button (click)="setStyleColor('olive')">Olive</ion-button>
+      <ion-button (click)="setStyleColor('green')">Green</ion-button>
+      <ion-button (click)="setStyleColor('purple')">Purple</ion-button>
+      <ion-button (click)="setStyleColor('fuchsia')">Fuchsia</ion-button>
+      <ion-button (click)="setStyleColor('lime')">Lime</ion-button>
+      <ion-button (click)="setStyleColor('teal')">Teal</ion-button>
+      <ion-button (click)="setStyleColor('aqua')">Aqua</ion-button>
+      <ion-button (click)="setStyleColor('blue')">Blue</ion-button>
+      <ion-button (click)="setStyleColor('navy')">Navy</ion-button>
+      <ion-button (click)="setStyleColor('black')">Black</ion-button>
+      <ion-button (click)="setStyleColor('gray')">Gray</ion-button>
+      <ion-button (click)="setStyleColor('silver')">Silver</ion-button>
+      <ion-button (click)="setStyleColor('white')">White</ion-button>
+  </div>
+
+  <div id="Lspacebutton" *ngIf="showlspace && body">
+      <ion-button fill="clear"(click)="showLSpace()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <!--<div id="lspacerange"> MCM MANA NK BUAT BAGI SATU LINE JE >.< -->
+        <ion-item id="lspacerange">
+        <ion-range [(ngModel)]="lspacebody" pin="true" min="-5" max="10" color="danger"></ion-range>
+      </ion-item>
+      <!--</div>-->
+  </div>
+
+  <div id="Lspacebutton" *ngIf="showlspace && link">
+      <ion-button fill="clear"(click)="showLSpace()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <!--<div id="lspacerange"> MCM MANA NK BUAT BAGI SATU LINE JE >.< -->
+        <ion-item id="lspacerange">
+        <ion-range [(ngModel)]="lspacelink" pin="true" min="-5" max="10" color="danger"></ion-range>
+      </ion-item>
+      <!--</div>-->
+  </div>
+    
+  <div id="Lspacebutton" *ngIf="showlspace && p">
+      <ion-button fill="clear"(click)="showLSpace()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <!--<div id="lspacerange"> MCM MANA NK BUAT BAGI SATU LINE JE >.< -->
+      <ion-item id="lspacerange">
+        <ion-range [(ngModel)]="lspace" pin="true" min="-5" max="10" color="danger"></ion-range>
+      </ion-item>
+      <!--</div>-->
+  </div>
+
+  <div id="Lspacebutton" *ngIf="showlspace && head">
+      <ion-button fill="clear"(click)="showLSpace()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <!--<div id="lspacerange"> MCM MANA NK BUAT BAGI SATU LINE JE >.< -->
+      <ion-item id="lspacerange">
+        <ion-range [(ngModel)]="lspaceh" pin="true" min="-5" max="10" color="danger"></ion-range>
+      </ion-item>
+      <!--</div>-->
+  </div>
+
+  <div id="Lspacebutton" *ngIf="showlspace && dialog">
+      <ion-button fill="clear"(click)="showLSpace()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <!--<div id="lspacerange"> MCM MANA NK BUAT BAGI SATU LINE JE >.< -->
+      <ion-item id="lspacerange">
+        <ion-range [(ngModel)]="lspacedialog" pin="true" min="-5" max="10" color="danger"></ion-range>
+      </ion-item>
+      <!--</div>-->
+  </div>
+
+  <div id="talignbutton" *ngIf="showtalign">
+      <ion-button fill="clear"(click)="showTAlign()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <ion-button (click)="setTAlign('left')">Left</ion-button>
+      <ion-button (click)="setTAlign('center')">Center</ion-button>
+      <ion-button (click)="setTAlign('right')">Right</ion-button>
+      <ion-button (click)="setTAlign('justify')">Justify</ion-button>
+  </div>
+
+  <div id="tdecobutton" *ngIf="showtdeco">
+      <ion-button fill="clear"(click)="showTDeco()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <ion-button (click)="setTDeco('overline')">Overline</ion-button>
+      <ion-button (click)="setTDeco('line-through')">Line-throught</ion-button>
+      <ion-button (click)="setTDeco('underline')">Underline</ion-button>
+      <ion-button (click)="setTDeco('none')">None</ion-button>
+  </div>
+
+  <div id="ttransfbutton" *ngIf="showttransf">
+    <ion-button fill="clear"(click)="showTTransf()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+    <ion-button (click)="setTTransf('uppercase')">UPPERCASE</ion-button>
+    <ion-button (click)="setTTransf('lowercase')">lowercase</ion-button>
+    <ion-button (click)="setTTransf('capitalize')">Capitalize</ion-button>
+    <ion-button (click)="setTTransf('none')">None</ion-button>
+  </div>
+
+  <div id="Wspacebutton" *ngIf="showwspace && body">
+    <ion-button fill="clear"(click)="showWSpace()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+    <div id="wspacerange">
+      <ion-item>
+      <ion-range [(ngModel)]="wspacebody" pin="true" min="-5" max="10" color="danger"></ion-range>
+    </ion-item>
+    </div>
+  </div>
+
+  <div id="Wspacebutton" *ngIf="showwspace && link">
+    <ion-button fill="clear"(click)="showWSpace()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+    <div id="wspacerange">
+      <ion-item>
+      <ion-range [(ngModel)]="wspacelink" pin="true" min="-5" max="10" color="danger"></ion-range>
+    </ion-item>
+    </div>
+
+  </div>
+
+  <div id="Wspacebutton" *ngIf="showwspace && p">
+    <ion-button fill="clear"(click)="showWSpace()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+    <div id="wspacerange">
+      <ion-item>
+      <ion-range [(ngModel)]="wspace" pin="true" min="-5" max="10" color="danger"></ion-range>
+    </ion-item>
+    </div>
+  </div>
+
+  <div id="Wspacebutton" *ngIf="showwspace && head">
+      <ion-button fill="clear"(click)="showWSpace()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <div id="wspacerange">
+        <ion-item>
+        <ion-range [(ngModel)]="wspaceh" pin="true" min="-5" max="10" color="danger"></ion-range>
+      </ion-item>
+      </div>
+  </div>
+
+  <div id="Wspacebutton" *ngIf="showwspace && dialog">
+      <ion-button fill="clear"(click)="showWSpace()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <div id="wspacerange">
+        <ion-item>
+        <ion-range [(ngModel)]="wspacedialog" pin="true" min="-5" max="10" color="danger"></ion-range>
+      </ion-item>
+      </div>
+  </div>
+
+  <div id="borderbutton" *ngIf="showb">
+      <ion-button fill="clear"(click)="showBorder()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+    <ion-button (click)="showBorderStyle()">Border Style</ion-button>
+    <ion-button (click)="showColor(3)">Border Colour</ion-button>
+    <ion-button (click)="showbWidth()">Border Width</ion-button>  
+    <ion-button (click)="showbRadius()">Border Radius</ion-button>  
+  </div>
+
+  <div id="bstylebutton" *ngIf="showbstyle">
+    <ion-button fill="clear"(click)="showBorderStyle()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+    <ion-button (click)="borderStyle('dotted')">Dotted</ion-button>
+    <ion-button (click)="borderStyle('dashed')">Dashed</ion-button>
+    <ion-button (click)="borderStyle('solid')">Solid</ion-button>
+    <ion-button (click)="borderStyle('double')">Double</ion-button>
+    <ion-button (click)="borderStyle('groove')">Groove</ion-button>
+    <ion-button (click)="borderStyle('ridge')">Ridge</ion-button>
+    <ion-button (click)="borderStyle('inset')">Inset</ion-button>
+    <ion-button (click)="borderStyle('outset')">Outset</ion-button>
+    <ion-button (click)="borderStyle('hidden')">Hidden</ion-button>
+    <ion-button (click)="borderStyle('none')">None</ion-button>  
+  </div>
+
+  <div id="bwidthbutton" *ngIf="showbwidth && body">
+      <ion-button fill="clear"(click)="showbWidth()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <div id="bwidthrange">
+        <ion-item>
+        <ion-range [(ngModel)]="bWidthbody" pin="true" min="0" max="20" color="danger"></ion-range>
+      </ion-item>
+      </div>
+    </div>
+
+  <div id="bwidthbutton" *ngIf="showbwidth && img">
+        <ion-button fill="clear"(click)="showbWidth()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+        <div id="bwidthrange">
+          <ion-item>
+          <ion-range [(ngModel)]="bWidthimg" pin="true" min="0" max="20" color="danger"></ion-range>
+        </ion-item>
+        </div>
+    </div>
+
+  <div id="bwidthbutton" *ngIf="showbwidth && link">
+        <ion-button fill="clear"(click)="showbWidth()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+        <div id="bwidthrange">
+          <ion-item>
+          <ion-range [(ngModel)]="bWidthlink" pin="true" min="0" max="20" color="danger"></ion-range>
+        </ion-item>
+        </div>
+    </div>
+
+  <div id="bwidthbutton" *ngIf="showbwidth && p">
+      <ion-button fill="clear"(click)="showbWidth()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <div id="bwidthrange">
+        <ion-item>
+        <ion-range [(ngModel)]="bWidth" pin="true" min="0" max="20" color="danger"></ion-range>
+      </ion-item>
+      </div>
+    </div>
+
+  <div id="bwidthbutton" *ngIf="showbwidth && head">
+      <ion-button fill="clear"(click)="showbWidth()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <div id="bwidthrange">
+      <ion-item>
+        <ion-range [(ngModel)]="bWidthh" pin="true" min="0" max="20" color="danger"></ion-range>
+      </ion-item>
+      </div>
+  </div>
+
+  <div id="bwidthbutton" *ngIf="showbwidth && dialog">
+      <ion-button fill="clear"(click)="showbWidth()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <div id="bwidthrange">
+      <ion-item>
+        <ion-range [(ngModel)]="bWidthdialog" pin="true" min="0" max="20" color="danger"></ion-range>
+      </ion-item>
+      </div>
+  </div>
+
+  <div id="bradiusbutton" *ngIf="showbradius && body">
+        <ion-button fill="clear"(click)="showbRadius()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+        <div id="bradiusrange">
+          <ion-item>
+          <ion-range [(ngModel)]="bradiusbody" pin="true" min="0" max="20" color="danger"></ion-range>
+        </ion-item>
+        </div>
+    </div>
+
+  <div id="bradiusbutton" *ngIf="showbradius && img">
+        <ion-button fill="clear"(click)="showbRadius()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+        <div id="bradiusrange">
+          <ion-item>
+          <ion-range [(ngModel)]="bradiusimg" pin="true" min="0" max="20" color="danger"></ion-range>
+        </ion-item>
+        </div>
+  </div>
+
+  <div id="bradiusbutton" *ngIf="showbradius && link">
+        <ion-button fill="clear"(click)="showbRadius()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+        <div id="bradiusrange">
+          <ion-item>
+          <ion-range [(ngModel)]="bradiuslink" pin="true" min="0" max="20" color="danger"></ion-range>
+        </ion-item>
+        </div>
+    </div>
+
+  <div id="bradiusbutton" *ngIf="showbradius && p">
+      <ion-button fill="clear"(click)="showbRadius()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <div id="bradiusrange">
+        <ion-item>
+        <ion-range [(ngModel)]="bradius" pin="true" min="0" max="20" color="danger"></ion-range>
+      </ion-item>
+      </div>
+    </div>
+
+  <div id="bradiusbutton" *ngIf="showbradius && head">
+        <ion-button fill="clear"(click)="showbRadius()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+        <div id="bradiusrange">
+          <ion-item>
+          <ion-range [(ngModel)]="bradiush" pin="true" min="0" max="20" color="danger"></ion-range>
+        </ion-item>
+        </div>
+  </div>
+
+  <div id="bradiusbutton" *ngIf="showbradius && dialog">
+      <ion-button fill="clear"(click)="showbRadius()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <div id="bradiusrange">
+        <ion-item>
+        <ion-range [(ngModel)]="bradiusdialog" pin="true" min="0" max="20" color="danger"></ion-range>
+      </ion-item>
+      </div>
+</div>
+
+  <div id="linkbutton" *ngIf="showlink">
+      <ion-button fill="clear"(click)="showLink()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <ion-button (click)="showFont()">Font</ion-button> 
+      <ion-button (click)="showText()">Text</ion-button>
+      <ion-button (click)="showBorder()">Border</ion-button>
+  </div>
+  
+  <div id="imgbutton" *ngIf="showimg">
+      <ion-button fill="clear"(click)="showImg()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <ion-button (click)="showImgH()">Height</ion-button> 
+      <ion-button (click)="showImgW()">Width</ion-button>
+      <ion-button (click)="showBorder()">Border</ion-button>
+      <ion-button >Opacity</ion-button>
+  </div>
+
+  <div id="imghbutton" *ngIf="showimgh">
+      <ion-button fill="clear"(click)="showImgH()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <ion-button (click)="setImgH('25%')" >25%</ion-button>
+      <ion-button (click)="setImgH('50%')" >50%</ion-button> 
+      <ion-button (click)="setImgH('75%')" >75%</ion-button> 
+      <ion-button (click)="setImgH('100%')" >100%</ion-button> 
+      <ion-button (click)="setImgH('auto')" >auto</ion-button> 
+  </div>
+
+  <div id="imgwbutton" *ngIf="showimgw">
+      <ion-button fill="clear"(click)="showImgW()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <ion-button (click)="setImgW('25%')" >25%</ion-button>
+      <ion-button (click)="setImgW('50%')" >50%</ion-button> 
+      <ion-button (click)="setImgW('75%')" >75%</ion-button> 
+      <ion-button (click)="setImgW('100%')" >100%</ion-button> 
+      <ion-button (click)="setImgW('auto')" >auto</ion-button> 
+  </div>
+
+  <div id="imgopacbutton" *ngIf="showimgopac">
+      <ion-button fill="clear"(click)="showImgOpac()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <div id="imgopacrange">
+        <ion-item>
+        <ion-range [(ngModel)]="opacity" pin="true" min="0.1" max="1" color="danger"></ion-range>
+      </ion-item>
+      </div>
+    </div>
+    
+</ion-content>

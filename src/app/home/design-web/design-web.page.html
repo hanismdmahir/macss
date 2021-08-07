@@ -1,0 +1,122 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>designWeb</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div>
+    <ion-button fill="clear" (click)="back()">
+      <img src="../../../assets/icon/back.png" alt="">
+    </ion-button>
+  </div>
+
+  <ion-card>
+    <ion-card-content>
+      <div [ngStyle]= "{'color': getColorPara1(), 'background-color' : getBGColorPara1() } " id="p1">
+        Once upon a time there lived a lion in a forest. One day after a heavy meal.
+        It was sleeping under a tree. After a while, there came a mouse and it started to play on the lion.
+        Suddenly the lion got up with anger and looked for those who disturbed its nice sleep." 
+        <span  class="dialog">
+        Who dare to disturb my sleep ?!
+        </span>
+        " said lion angrily. Then it saw a small mouse standing trembling with fear. The lion jumped on it and started to kill it. "
+        <span class="dialog">
+        Oh lion, please forgive me. I won't do it again. I'm sorry
+        </span>
+        ", the mouse requested the lion to forgive it. The lion felt pity and left it. The mouse ran away.
+      </div>
+      <div id="img1">
+        <img src="../../../assets/img/story.jpg" alt="lion and mouse">
+      </div>
+      <div [ngStyle]= " {'color': getColorPara1(), 'background-color' : getBGColorPara1() }"id="p2">
+        On another day, the lion was caught in a net by a hunter. The mouse came there and cut the net. Thus it escaped.
+        There after, the mouse and the lion became friends. They lived happily in the forest afterwards.
+        <span id="Moral">Moral : A friend in need is a friend indeed.</span>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <!--<ion-card>
+    <ion-card-content>
+     <div id="css" ng-app=""  *ngIf="p">
+        <span> {{tag}} </span>
+        <p ng-non-bindable>{{'{'}}</p>
+            <p>{{textcolor}}</p>
+            <p>{{textbgcolor}}</p>
+        <p ng-non-bindable>{{'}'}}</p>
+      </div>
+
+      
+    </ion-card-content>
+  </ion-card>-->
+
+
+  <div>
+
+    <div id="mainbutton" *ngIf="show">
+      <!--<ion-button>Background</ion-button>
+      <ion-button (click)="showImg()">Image</ion-button>-->
+      <ion-button (click)="showP()" >Paragraph {{'<'}}p{{'>'}}</ion-button>
+      <!--<ion-button (click)="showDlg()">Class Dialog</ion-button>-->
+      <!--<ion-button (click)="showMoral()">Class Moral</ion-button>-->
+    </div>
+    
+    <div id="pbutton" *ngIf="showp">
+        <ion-button fill="clear"(click)="showMenu()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+        <ion-button (click)="showColor()">Color</ion-button>
+        <ion-button (click)="showBGColor()">Background Color</ion-button>
+        <ion-button (click)="showBGColor()">Border</ion-button>
+        
+    </div>
+
+    <div id="colbutton" *ngIf="showc">
+        <ion-button fill="clear"(click)="showColor()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+        <ion-button (click)="setStyleColor('maroon')">Maroon</ion-button>
+        <ion-button (click)="setStyleColor('red')">Red</ion-button>
+        <ion-button (click)="setStyleColor('orange')">Orange</ion-button>
+        <ion-button (click)="setStyleColor('yellow')">Yellow</ion-button>
+        <ion-button (click)="setStyleColor('olive')">Olive</ion-button>
+        <ion-button (click)="setStyleColor('green')">Green</ion-button>
+        <ion-button (click)="setStyleColor('purple')">Purple</ion-button>
+        <ion-button (click)="setStyleColor('fuchsia')">Fuchsia</ion-button>
+        <ion-button (click)="setStyleColor('lime')">Lime</ion-button>
+        <ion-button (click)="setStyleColor('teal')">Teal</ion-button>
+        <ion-button (click)="setStyleColor('aqua')">Aqua</ion-button>
+        <ion-button (click)="setStyleColor('blue')">Blue</ion-button>
+        <ion-button (click)="setStyleColor('navy')">Navy</ion-button>
+        <ion-button (click)="setStyleColor('black')">Black</ion-button>
+        <ion-button (click)="setStyleColor('gray')">Gray</ion-button>
+        <ion-button (click)="setStyleColor('silver')">Silver</ion-button>
+        <ion-button (click)="setStyleColor('white')">White</ion-button>
+    </div>
+
+    <div id="colbutton" *ngIf="showbgc">
+      <ion-button fill="clear"(click)="showBGColor()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      <ion-button (click)="setBGColor('maroon')">Maroon</ion-button>
+      <ion-button (click)="setBGColor('red')">Red</ion-button>
+      <ion-button (click)="setBGColor('orange')">Orange</ion-button>
+      <ion-button (click)="setBGColor('yellow')">Yellow</ion-button>
+      <ion-button (click)="setBGColor('olive')">Olive</ion-button>
+      <ion-button (click)="setBGColor('green')">Green</ion-button>
+      <ion-button (click)="setBGColor('purple')">Purple</ion-button>
+      <ion-button (click)="setBGColor('fuchsia')">Fuchsia</ion-button>
+      <ion-button (click)="setBGColor('lime')">Lime</ion-button>
+      <ion-button (click)="setBGColor('teal')">Teal</ion-button>
+      <ion-button (click)="setBGColor('aqua')">Aqua</ion-button>
+      <ion-button (click)="setBGColor('blue')">Blue</ion-button>
+      <ion-button (click)="setBGColor('navy')">Navy</ion-button>
+      <ion-button (click)="setBGColor('black')">Black</ion-button>
+      <ion-button (click)="setBGColor('gray')">Gray</ion-button>
+      <ion-button (click)="setBGColor('silver')">Silver</ion-button>
+      <ion-button (click)="setBGColor('white')">White</ion-button>
+  </div>
+
+    <div id="pbutton" *ngIf="showimg">
+      <ion-button fill="clear"(click)="showMenu()" ><img src="../../../assets/icon/backcircle.png" alt="" id="backarrow" ></ion-button>
+      img    
+    </div>
+
+  </div>
+  
+</ion-content>

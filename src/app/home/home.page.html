@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      MACSS
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-grid>
+  <ion-row style="margin-top: 10%;">
+    <ion-col >
+        <ion-card button='true' class="flip menu">
+          <ion-card-header >
+            <ion-img src="../assets/img/quiz.png"></ion-img>
+          </ion-card-header>
+        
+          <ion-card-content class="ion-text-center">
+            Quiz
+          </ion-card-content>
+        </ion-card>
+    </ion-col>
+
+    <ion-col>
+        <ion-card button='true' (click)="designweb()" class="menu">
+          <ion-card-header>
+            <ion-img src="../assets/img/website.png" ></ion-img>
+          </ion-card-header>
+        
+          <ion-card-content class="ion-text-center">
+           Design Web
+          </ion-card-content>
+        </ion-card>
+    </ion-col>
+
+    <ion-col>
+        <!-- <ion-card button='true' (click)="flashcard()" class="menu"> -->
+         <ion-card button='true' routerLink="/flashcard" class="menu"> 
+          <ion-card-header>
+            <ion-img src="../assets/img/flashcard.png"></ion-img>
+          </ion-card-header>
+        
+          <ion-card-content class="ion-text-center">
+            Flashcard
+          </ion-card-content>
+        </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+<script src="button.js"></script>
+</ion-content>
+
